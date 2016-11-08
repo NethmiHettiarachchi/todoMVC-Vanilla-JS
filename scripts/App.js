@@ -10,8 +10,4 @@
     }
     var app = new App();
     renderView(app.model,app.controller);
-    // var container = document.getElementById('container');
-    // container.appendChild(createTaskTextField.call(app.controller));
-    // container.appendChild(createView(app.model));
-
 })(window);
